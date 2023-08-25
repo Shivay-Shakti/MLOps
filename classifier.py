@@ -12,7 +12,7 @@ features = ['SepalLengthCm','SepalWidthCm','PetalLengthCm','PetalWidthCm']
 
 target = 'Species'
 
-X_train, x_test, y_train, y_test = train_test_split(df[features],df[target],test_size=0.3,shuffle=True)
+X_train, x_test, y_train, y_test = train_test_split(df[features],df[target],test_size=0.1,shuffle=True)
 
 # step -1: initialize the model class
 
